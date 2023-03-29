@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" class="right">Home</a>
+        <a href="/delview">Delete</a>
+        <a href="/updtview" >Update</a>
+        <a href="/srchview" >Search</a>
+        <a href="/login" id="logout">Logout</a>
+    </div>
+    
+    <div class="header" id="home">
+        <h1 id="msg">A shopping list</h1>
+        <h1>to your shopping list</h1>
+        <p id="large-p">with <b>a calculator</b> to track your expenses.</p>
+    </div>
+    
+    <a href="/products" ><button class="btn submit mb">Show all items in your shopping list</button> </a>
+    <section class="input" id="add-sec">
+        <div>
+            <form action="/add" method="get">
+                <p>Use this form to add a value.</p>
+                <input type="text" name="product" id="product" placeholder="Enter something..." required>
+                <input type="number" min="1" name="quantity" id="quantity" placeholder="add quantity" required>
+                <input type="number" min="1" step="0.01" name="price" id="price" placeholder="Enter price" required>
+                <input type="date" name="date" id="date" placeholder="Enter date..." required>
+                <input type="submit" value="Add product" class="submit btn">
+            </form>
+        </div>
+    </section>       
+    <script src="static/index.js"></script>
+</body>
+</html>

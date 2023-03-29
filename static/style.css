@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#014440;
+    margin: 0 auto;
+    min-height: 1000px;
+    font-size: 18px;
+    text-align: center;
+}
+.outer-div{
+    padding: 20px;
+}
+.header {
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+}
+.header p {
+    padding-bottom: 40px;
+}
+#large-p{
+    font-size: 20px;
+}
+h1 {
+    font-size: 7em;
+    margin: 1em 4rem 1em;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container{
+    width : 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+  
+  
+.header h1 {
+    font-size: 40px;
+    
+}
+  
+.navbar {
+    overflow: hidden;
+    background-color: #0a2132;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+  
+.navbar a.right {
+    float: right;
+    margin-right: 10px;
+}
+  
+a:hover {
+    background-color: #ffffff;
+    color: #0a2132;
+}
+  
+
+section {
+    margin-top: 10px;
+    min-height: 200px;
+    border:1px solid #0a2132;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    width:60%;
+}
+
+input{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 10px;
+    height: 25px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.submit{
+    height: 25px;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn{
+    min-height: 35px;
+    padding: 3px;
+    background-color:#0a2132;
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    min-width: 60px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15;
+}
+.btn:hover{
+    color:#0a2132;
+    background-color: #ffffff;
+}
+
+#in{
+    margin-top: 5px;   
+}
+
+.results{
+    width : 70%;
+    margin: 0 auto;
+}
+
+.space{
+    margin-bottom : 15px;
+    /* min-height: 80vp; */
+    background-color:#ffffff ;
+}
+
+.result-space{
+    margin-bottom: 40px; 
+    background-color: #ffffff ;
+    padding: 6px;
+}
+
+#show{
+    background-color: #0a2132;
+    color: #ffffff;
+}
+#show:hover{
+    color:#0a2132;
+    background-color: #ffffff;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.error{
+    font-size: 40px;
+    color:#ffffff;
+}
+
+#login-section{
+    margin-top : 20px;
+}

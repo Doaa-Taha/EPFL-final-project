@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update view</title>
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="/" class="right">Home</a>
+        <a href="/delview">Delete</a>
+        <a href="/updtview" >Update</a>
+        <a href="/srchview" >Search</a>
+        <a href="/login" id="logout">Logout</a>
+    </div>
+    <a href="/products" ><button class="btn submit mb">Show all items in your shopping list</button> </a>
+
+    <section class="input" id="update-sec">
+        <form action="/update" method="get">
+            <p>Use this form to update an item in your shopping list.</p>
+            <input type="text" name="name" id="name" placeholder="Specify an item" required>
+            <input type="number" min="1" name="quantity" placeholder="add quantity" required>
+            <input type="submit" value="Confirm Update" class="btn submit">
+        </form>
+    </section>
+    
+</body>
+</html>
