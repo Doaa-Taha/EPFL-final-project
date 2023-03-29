@@ -92,6 +92,6 @@ def show_result(products_arr):
     else:
         for product in products_arr:
             total_cost += product.cal_cost()
-            actual_values += "<p class=\"p\">" + product.name +" : " + str(product.quantity) + " will cost "+ str(product.cal_cost())+"</p>"
+            actual_values += "<p class=\"p\">" + product.name +" : " + str(product.quantity) + " will cost "+ str(product.cal_cost())+ " $. You bought it on "+ product.date+"</p>"
     cost_html = "<p> The total cost is : "+ str(total_cost) + " $ </p>"
     return [actual_values, cost_html]
